@@ -1,0 +1,38 @@
+name: calculate_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.12.0
+  lottie: ^3.3.2
+  get: ^4.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/bmi-logo-1024.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bmi-logo.png
+    - assets/bmi-logo-1024.png
+    - assets/Confetti.json
