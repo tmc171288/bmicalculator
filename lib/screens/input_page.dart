@@ -24,7 +24,7 @@ class _InputPageState extends State<InputPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('BMI CALCULATOR')),
+      appBar: AppBar(title: Text('BMI SHAPECHECK')),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
@@ -88,7 +88,7 @@ class _InputPageState extends State<InputPage> {
                       inactiveTrackColor: Color(0xFF8D8E98),
                       activeTrackColor: Colors.white,
                       thumbColor: Color(0xFF24D876),
-                      overlayColor: Color.fromARGB(131, 230, 106, 143),
+                      overlayColor: Color.fromARGB(78, 248, 1, 71),
                       thumbShape: RoundSliderThumbShape(
                         enabledThumbRadius: 15.0,
                       ),
